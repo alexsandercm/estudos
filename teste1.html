@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title>Javascript</title>
+    </head>
+    <body>
+        <script>
+            var endereco = {
+                nome: "Alexsander",
+                rua: '"Rua Antonio Austregesilo"',
+                numero: 366,
+                bairro: "Inhauma",
+                cidade: "Rio de Janeiro",
+                uf: "RJ",
+            };
+            function resultado(endereco) {
+                return("O " + endereco.nome + " mora em " + endereco.cidade + " / " + endereco.uf + " no bairro " + endereco.bairro + " na " + endereco.rua + " no n° " + endereco.numero + " . " )
+            };
+
+        console.log(resultado(endereco));
+        // document.write(endereco)
+        </script>
+    </body>
+</html>
